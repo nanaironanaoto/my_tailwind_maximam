@@ -18,6 +18,3 @@ purgecss
 purgecss --css assets/my_tailwind_maximam.css --content index.html --output assets/my_tailwind.css
 
 npx tailwindcss -i assets/my_tailwind.css -o assets/my_tailwind.css --watch
-
-■カスタマイズ済tailwindcss
-https://cinec-stg.work/test/tailwind.css
