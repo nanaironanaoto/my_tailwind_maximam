@@ -1,5 +1,11 @@
 # my_tailwind_maximam<br>
 <br>
+my_tailwind_mini.css<br>
+https://raw.githubusercontent.com/nanaironanaoto/my_tailwind_maximam/main/assets/my_tailwind_mini.css<br>
+<br>
+my_tailwind_mini_minified.css<br>
+https://raw.githubusercontent.com/nanaironanaoto/my_tailwind_maximam/main/assets/my_tailwind_mini_minified.css<br>
+<br>
 ■必要な階層関係<br>
 /asset/<br>
 └my_tailwind.css (出力先)<br>
