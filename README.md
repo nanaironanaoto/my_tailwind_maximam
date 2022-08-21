@@ -1,7 +1,7 @@
 # my_tailwind_maximam
 
 ■必要な階層関係
-/asset/
+/asset/<br>
 └my_tailwind.css (出力先)
 └my_tailwind_maximam.css (ローカル読み込み用)
 /tailwind-theme/(tailwindのカスタム設定)
