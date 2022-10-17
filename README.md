@@ -1,15 +1,15 @@
-tailwindcss
+# tailwindcss
 
-tailwind_only_font_display_grid_flex.css
+## tailwind_only_font_display_grid_flex.css
 https://nanaironanaoto.github.io/my_tailwind_maximam/assets/tailwind_only_font_display_grid_flex.css
 
-my_tailwind_maximam.css
+## my_tailwind_maximam.css
 https://nanaironanaoto.github.io/my_tailwind_maximam/assets/my_tailwind_maximam.css
 
-※Github上のファイルを変更したあと、Sttings>Pages内で
+## ※Github上のファイルを変更したあと、Sttings>Pages内で
 Unpublish→Publishにしないと、更新がされないので注意！
 
-【仕様】
+### 【仕様】
 メディアクエリはmdのみ
 md	/* Medium (md) */
 @media (min-width: 768px) { /* ... */ }
