@@ -1,5 +1,8 @@
 # my_tailwind_only_font_display_grid_flex<br>
-https://raw.githubusercontent.com/nanaironanaoto/my_tailwind_maximam/main/assets/tailwind_only_font_display_grid_flex<br>
+<a href="https://raw.githubusercontent.com/nanaironanaoto/my_tailwind_maximam/main/assets/tailwind_only_font_display_grid_flex.css">
+https://raw.githubusercontent.com/nanaironanaoto/my_tailwind_maximam/main/assets/tailwind_only_font_display_grid_flex.css
+</a>
+<br>
 
 <br>
 ■必要な階層関係<br>
