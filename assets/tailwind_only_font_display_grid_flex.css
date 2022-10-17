@@ -12,7 +12,7 @@
     flex-flow: row-reverse;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .md\:flex-flow-col{
     flex-flow: column;
   }
@@ -1118,7 +1118,7 @@
   gap: 100px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .md\:block {
     display: block;
   }
