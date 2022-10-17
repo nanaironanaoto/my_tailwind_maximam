@@ -14,7 +14,7 @@ Unpublish→Publishにしないと、更新がされないので注意！
 既存のtailwindと併用しないこと！
 
 md	/* Medium (md) */
-@media (man-width: 768px) { /* ... */ }
+@media (max-width: 768px) { /* ... */ }
 
 .text-10px	font-size: 10px;
 ~100pxまで
