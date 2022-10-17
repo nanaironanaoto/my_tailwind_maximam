@@ -1,10 +1,6 @@
 # my_tailwind_only_font_display_grid_flex<br>
 https://raw.githubusercontent.com/nanaironanaoto/my_tailwind_maximam/main/assets/tailwind_only_font_display_grid_flex<br>
-# my_tailwind_mini.css<br>
-https://raw.githubusercontent.com/nanaironanaoto/my_tailwind_maximam/main/assets/my_tailwind_mini.css<br>
-<br>
-# my_tailwind_mini_minified.css<br>
-https://raw.githubusercontent.com/nanaironanaoto/my_tailwind_maximam/main/assets/my_tailwind_mini_minified.css<br>
+
 <br>
 ■必要な階層関係<br>
 /asset/<br>
