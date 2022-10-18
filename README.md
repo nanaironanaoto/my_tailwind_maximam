@@ -88,3 +88,8 @@ Unpublish→Publishにしないと、更新がされないので注意！
 
 .order-1
 ~各order-10まで
+
+## width
+.width-full
+.width-auto
+
