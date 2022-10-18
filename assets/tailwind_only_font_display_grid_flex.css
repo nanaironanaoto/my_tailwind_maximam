@@ -13248,6 +13248,14 @@
   order: 10;
 }
 
+.w-full {
+  width: 100%;
+}
+
+.w-auto {
+  width: auto;
+}
+
 @media (max-width: 768px) {
   .md\:block {
     display: block;
@@ -26469,6 +26477,14 @@
 
   .md\:order-10 {
     order: 10;
+  }
+
+  .md\:w-full {
+    width: 100%;
+  }
+
+  .md\:w-auto {
+    width: auto;
   }
 
 }
