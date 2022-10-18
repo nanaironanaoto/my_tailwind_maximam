@@ -10,16 +10,19 @@ https://nanaironanaoto.github.io/my_tailwind_maximam/assets/my_tailwind_maximam.
 ※Github上のファイルを変更したあと、Sttings>Pages内で
 Unpublish→Publishにしないと、更新がされないので注意！
 
-## 【仕様】
-### メディアクエリはmdのみで、PCファーストの仕様に変更しているので、
+【仕様】
+----------------
+## メディアクエリはmdのみで、PCファーストの仕様に変更しているので、
 既存のtailwindと併用しないこと！
  md	/* Medium (md) */
 @media (ma-width: 768px) { /* ... */ }
 
-### .text-10px	font-size: 10px;
+## .text-10px	font-size: 10px;
 ~100pxまで
 
-### padding
+
+
+## padding
 .p-0
 .p-1px		padding: 1px;
 .py-1px	padding-top: 1px; padding-bottom: 1px;
@@ -27,7 +30,7 @@ Unpublish→Publishにしないと、更新がされないので注意！
 .pt-1px		padding-top: 1px
 ~各100pxまで
 
-### margin
+## margin
 .ml-0		margin: 0;
 .m-1px		margin: 1px;
 .my-1px	margin-top: 1px; margin-bottom: 1px;
@@ -35,13 +38,13 @@ Unpublish→Publishにしないと、更新がされないので注意！
 .mt-1px		margin-top: 1px;
 ~各100pxまで
 
-### テキストの横方向の位置
+## テキストの横方向の位置
 .text-left	text-align: left;
 .text-center	text-align: center;
 .text-right	text-align: right;
 .text-justify	text-align: justify;
 
-### フォントの太さ (Adobe XD上の表記)
+## フォントの太さ (Adobe XD上の表記)
 .font-hairline	font-weight: 100; (Hairline)
 .font-thin	font-weight: 200; (Ultra Light)
 .font-light	font-weight: 300;
@@ -52,12 +55,12 @@ Unpublish→Publishにしないと、更新がされないので注意！
 .font-extrabold	font-weight: 800; (Ultra Bold)
 .font-black	font-weight: 900;
 
-### フォント
+## フォント
 .font-sans (ゴシック)
 .font-serif (明朝)
 .font-mono
 
-### display, grid, flexに対応
+## display, grid, flexに対応
 追加）2022.10.17 
 .flex-flow-col
 .flex-flow-row
@@ -65,7 +68,7 @@ Unpublish→Publishにしないと、更新がされないので注意！
 .flex-flow-row-reverse
 を追加
 
-### girdやflexボックスのオプション
+## girdやflexボックスのオプション
 
 /*align-items*/
 .items-center
