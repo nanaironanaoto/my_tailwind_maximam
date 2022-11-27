@@ -11,7 +11,7 @@ https://nanaironanaoto.github.io/my_tailwind_maximam/assets/my_tailwind_maximam.
 Unpublish→Publishにしないと、更新がされないので注意！
 
 【仕様】
-----------------
+-----------------
 ## メディアクエリはmdのみで、PCファーストの仕様に変更しているので、
 既存のtailwindと併用しないこと！
  md	/* Medium (md) */
