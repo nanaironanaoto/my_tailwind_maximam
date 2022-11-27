@@ -1,8 +1,8 @@
-# my_tailwind_mini.css
-https://github.com/nanaironanaoto/tailwind_mini/assets/my_tailwind_mini.css
+# tailwind_only_font_display_grid_flex.css
+https://nanaironanaoto.github.io/tailwind_mini/assets/tailwind_only_font_display_grid_flex.css
 
-# my_tailwind_mini_minified.css
-https://github.com/nanaironanaoto/tailwind_mini/assets/my_tailwind_mini.css
+# tailwind_only_font_display_grid_flex_minified.css
+https://nanaironanaoto.github.io/tailwind_mini/assets/tailwind_only_font_display_grid_flex_minified.css
 
 # my_tailwind_maximam.css
 https://nanaironanaoto.github.io/my_tailwind_maximam/assets/my_tailwind_maximam.css
@@ -20,7 +20,11 @@ Unpublish→Publishにしないと、更新がされないので注意！
 ## .text-10px	font-size: 10px;
 ~100pxまで
 
-
+## display, grid, flexに対応 追加）2022.10.17 
+.flex-flow-col
+.flex-flow-row
+.flex-flow-col-reverse
+.flex-flow-row-reverse
 
 ## padding
 .p-0
