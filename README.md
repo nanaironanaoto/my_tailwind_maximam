@@ -1,8 +1,8 @@
 # my_tailwind_mini.css
-https://github.com/nanaironanaoto/tailwind_mini/assets/my_tailwind_mini.css
+https://nanaironanaoto.github.io/tailwind_mini/assets/my_tailwind_mini.css
 
 # my_tailwind_mini_minified.css
-https://github.com/nanaironanaoto/tailwind_mini/assets/my_tailwind_mini.css
+https://nanaironanaoto.github.io/tailwind_mini/assets/my_tailwind_mini_minified.css
 
 # my_tailwind_maximam.css
 https://nanaironanaoto.github.io/my_tailwind_maximam/assets/my_tailwind_maximam.css
