@@ -1,3 +1,9 @@
+# tailwind_mini.css
+https://nanaironanaoto.github.io/tailwind_mini/assets/tailwind_mini.css
+
+# tailwind_mini_minified.css
+https://nanaironanaoto.github.io/tailwind_mini/assets/tailwind_mini_minified.css
+
 # tailwind_only_font_display_grid_flex.css
 https://nanaironanaoto.github.io/tailwind_mini/assets/tailwind_only_font_display_grid_flex.css
 
@@ -21,8 +27,8 @@ chevron_right_white_6px.png
  md	/* Medium (md) */
 @media (ma-width: 768px) { /* ... */ }
 
-## .text-10px	font-size: 10px;  追加）2022.11.28 
-8px~30pxまで
+## font-size  追加）2022.11.28 
+.text-8px~30pxまで
 
 ## display, grid, flexに対応 追加）2022.10.17 
 .flex-flow-col
@@ -36,7 +42,7 @@ chevron_right_white_6px.png
 .py-1px	padding-top: 1px; padding-bottom: 1px;
 .py-1px	padding-left: 1px; padding-right: 1px;
 .pt-1px		padding-top: 1px
-~各100pxまで
+~各200pxまで
 
 ## margin
 .ml-0		margin: 0;
@@ -44,7 +50,7 @@ chevron_right_white_6px.png
 .my-1px	margin-top: 1px; margin-bottom: 1px;
 .my-1px	margin-left: 1px; margin-right: 1px;
 .mt-1px		margin-top: 1px;
-~各100pxまで
+~各200pxまで
 
 ## テキストの横方向の位置
 .text-left	text-align: left;
