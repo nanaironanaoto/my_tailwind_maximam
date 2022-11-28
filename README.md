@@ -17,8 +17,8 @@ Unpublish→Publishにしないと、更新がされないので注意！
  md	/* Medium (md) */
 @media (ma-width: 768px) { /* ... */ }
 
-## .text-10px	font-size: 10px;
-~100pxまで
+## .text-10px	font-size: 10px;  追加）2022.11.28 
+8px~30pxまで
 
 ## display, grid, flexに対応 追加）2022.10.17 
 .flex-flow-col
