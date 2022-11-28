@@ -10,6 +10,10 @@ https://nanaironanaoto.github.io/my_tailwind_maximam/assets/my_tailwind_maximam.
 ※Github上のファイルを変更したあと、Settings>Pages内で
 Unpublish→Publishにしないと、更新がされないので注意！
 
+chevron_right_white_12px.png
+
+chevron_right_white_6px.png
+
 【仕様】
 -----------------
 ## メディアクエリはmdのみで、PCファーストの仕様に変更しているので、
