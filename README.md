@@ -1,8 +1,8 @@
-# tailwind_mini.css
-https://nanaironanaoto.github.io/tailwind_mini/assets/tailwind_mini.css
+# my_tailwind_mini.css
+https://nanaironanaoto.github.io/tailwind_mini/assets/my_tailwind_mini.css
 
-# tailwind_mini_minified.css
-https://nanaironanaoto.github.io/tailwind_mini/assets/tailwind_mini_minified.css
+# my_tailwind_mini_minified.css
+https://nanaironanaoto.github.io/tailwind_mini/assets/my_tailwind_mini_minified.css
 
 # tailwind_only_font_display_grid_flex.css
 https://nanaironanaoto.github.io/tailwind_mini/assets/tailwind_only_font_display_grid_flex.css
