@@ -1,3 +1,6 @@
+# chevron-right
+https://nanaironanaoto.github.io/tailwind_mini/assets/chevron-right.svg
+
 # my_tailwind_mini.css
 https://nanaironanaoto.github.io/tailwind_mini/assets/my_tailwind_mini.css
 
