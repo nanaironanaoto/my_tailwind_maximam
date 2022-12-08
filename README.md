@@ -19,6 +19,9 @@
 ## chevron-right
 https://nanaironanaoto.github.io/tailwind_mini/assets/chevron-right.svg
 
+## chevron-right-bold
+https://nanaironanaoto.github.io/tailwind_mini/assets/chevron-right-bold.svg
+
 ※いろいろなサイトがあるがお金を要求してくるので以下のbootstrapが提供しているところが良
 https://icons.getbootstrap.com/icons/chevron-right/
 
