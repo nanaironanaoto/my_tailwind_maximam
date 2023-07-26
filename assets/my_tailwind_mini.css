@@ -322,6 +322,22 @@
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.font-times {
+    font-family: "Times New Roman",sans-serif;
+}
+
+.font-helvetica {
+  font-family: Helvetica;
+}
+
+.font-helvetica-neue{
+  font-family: HelveticaNeue;
+}
+
+.font-yu-gothic {
+  font-family:     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+}
+
 .font-serif {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
@@ -389,6 +405,27 @@
 .not-italic {
   font-style: normal;
 }
+
+.border-top {
+  border-top: 1px solid  #ccc;
+}
+
+.border-left {
+  border-left: 1px solid  #ccc;
+}
+
+.border-right {
+  border-right: 1px solid  #ccc;
+}
+
+.border-bottom {
+  border-bottom: 1px solid  #ccc;
+}
+
+.border {
+  border-bottom: 1px solid  #ccc;
+}
+
 .auto-cols-auto {
   grid-auto-columns: auto;
 }
@@ -439,6 +476,30 @@
 
 .auto-rows-fr {
   grid-auto-rows: minmax(0, 1fr);
+}
+
+.grid-cols-1-2 {
+  grid-template-columns: 1fr 2fr;
+}
+
+.grid-cols-2-1 {
+  grid-template-columns: 2fr 1fr;
+}
+
+.grid-cols-1-3 {
+  grid-template-columns: 1fr 3fr;
+}
+
+.grid-cols-3-1 {
+  grid-template-columns: 3fr 1fr;
+}
+
+.grid-cols-3-2 {
+  grid-template-columns: 3fr 2fr;
+}
+
+.grid-cols-2-3 {
+  grid-template-columns: 2fr 3fr;
 }
 
 .grid-cols-1 {
@@ -14024,6 +14085,52 @@
   width: auto;
 }
 
+.underline{
+  text-decoration: underline;
+}
+
+.no-underline{
+  text-decoration: none;
+}
+
+.chevron-right-before {
+  position: inherit;
+}
+
+.chevron-right-before:before { 
+  content: "";
+  background-color: #ccc; /*任意のカラーを指定可能*/
+  display: inline-block;
+  position: relative;
+  bottom: 2px; /*任意の縦方向位置を指定可能*/
+  height: 10px; /*任意の高さを指定可能*/
+  width: 10px; /*任意の幅を指定可能*/
+  -webkit-mask: url(https://nanaironanaoto.github.io/tailwind_mini/assets/chevron-right.svg);
+  mask: url(https://nanaironanaoto.github.io/tailwind_mini/assets/chevron-right.svg);
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  vertical-align: middle;
+}
+
+.chevron-right-after {
+  position: inherit;
+}
+
+.chevron-right-after:after { 
+  content: "";
+  background-color: #ccc; /*任意のカラーを指定可能*/
+  display: inline-block;
+  position: relative;
+  bottom: 2px; /*任意の縦方向位置を指定可能*/
+  height: 10px; /*任意の高さを指定可能*/
+  width: 10px; /*任意の幅を指定可能*/
+  -webkit-mask: url(https://nanaironanaoto.github.io/tailwind_mini/assets/chevron-right.svg);
+  mask: url(https://nanaironanaoto.github.io/tailwind_mini/assets/chevron-right.svg);
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  vertical-align: middle;
+}
+
 @media (max-width: 768px) {
   .md\:m-0 {
     margin: 0;
@@ -14333,6 +14440,18 @@
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
+  .md\:font-times {
+    font-family: "Times New Roman",sans-serif;
+  }
+
+  .md\:font-helvetica {
+    font-family: Helvetica;
+  }
+
+  .md\:font-helvetica-neue{
+    font-family: HelveticaNeue;
+  }
+
   .md\:font-serif {
     font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   }
@@ -14441,6 +14560,26 @@
     font-style: normal;
   }
 
+  .md\:border-top {
+    border-top: 1px solid  #ccc;
+  }
+  
+  .md\:border-left {
+    border-left: 1px solid  #ccc;
+  }
+  
+  .md\:border-right {
+    border-right: 1px solid  #ccc;
+  }
+  
+  .md\:border-bottom {
+    border-bottom: 1px solid  #ccc;
+  }
+  
+  .md\:border {
+    border-bottom: 1px solid  #ccc;
+  }
+
   .md\:auto-cols-auto {
     grid-auto-columns: auto;
   }
@@ -14491,6 +14630,30 @@
 
   .md\:auto-rows-fr {
     grid-auto-rows: minmax(0, 1fr);
+  }
+
+  .md\:grid-cols-1-2 {
+    grid-template-columns: 1fr 2fr;
+  }
+  
+  .md\:grid-cols-2-1 {
+    grid-template-columns: 2fr 1fr;
+  }
+  
+  .md\:grid-cols-1-3 {
+    grid-template-columns: 1fr 3fr;
+  }
+  
+  .md\:grid-cols-3-1 {
+    grid-template-columns: 3fr 1fr;
+  }
+  
+  .md\:grid-cols-3-2 {
+    grid-template-columns: 3fr 2fr;
+  }
+  
+  .md\:grid-cols-2-3 {
+    grid-template-columns: 2fr 3fr;
   }
 
   .md\:grid-cols-1 {
@@ -28076,6 +28239,14 @@
 
   .md\:w-auto {
     width: auto;
+  }
+
+  .md\:underline{
+    text-decoration: underline;
+  }
+  
+  .md\:no-underline{
+    text-decoration: none;
   }
 
 }
