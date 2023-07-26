@@ -164,6 +164,46 @@
   font-size: 30px;
 }
 
+.text-31px {
+  font-size: 31px;
+}
+
+.text-32px {
+  font-size: 32px;
+}
+
+.text-33px {
+  font-size: 33px;
+}
+
+.text-34px {
+  font-size: 34px;
+}
+
+.text-35px {
+  font-size: 35px;
+}
+
+.text-36px {
+  font-size: 36px;
+}
+
+.text-37px {
+  font-size: 37px;
+}
+
+.text-38px {
+  font-size: 38px;
+}
+
+.text-39px {
+  font-size: 39px;
+}
+
+.text-40px {
+  font-size: 40px;
+}
+
 /*position*/
 .visible {
   visibility: visible;
@@ -407,23 +447,23 @@
 }
 
 .border-top {
-  border-top: 1px solid  #ccc;
+  border-top: 1px solid  #000;
 }
 
 .border-left {
-  border-left: 1px solid  #ccc;
+  border-left: 1px solid  #000;
 }
 
 .border-right {
-  border-right: 1px solid  #ccc;
+  border-right: 1px solid  #000;
 }
 
 .border-bottom {
-  border-bottom: 1px solid  #ccc;
+  border-bottom: 1px solid  #000;
 }
 
 .border {
-  border-bottom: 1px solid  #ccc;
+  border-bottom: 1px solid  #000;
 }
 
 .auto-cols-auto {
@@ -14093,13 +14133,9 @@
   text-decoration: none;
 }
 
-.chevron-right-before {
-  position: inherit;
-}
-
 .chevron-right-before:before { 
   content: "";
-  background-color: #ccc; /*任意のカラーを指定可能*/
+  background-color: #000; /*任意のカラーを指定可能*/
   display: inline-block;
   position: relative;
   bottom: 2px; /*任意の縦方向位置を指定可能*/
@@ -14110,15 +14146,11 @@
   -webkit-mask-size: cover;
   mask-size: cover;
   vertical-align: middle;
-}
-
-.chevron-right-after {
-  position: inherit;
 }
 
 .chevron-right-after:after { 
   content: "";
-  background-color: #ccc; /*任意のカラーを指定可能*/
+  background-color: #000; /*任意のカラーを指定可能*/
   display: inline-block;
   position: relative;
   bottom: 2px; /*任意の縦方向位置を指定可能*/
@@ -14130,6 +14162,39 @@
   mask-size: cover;
   vertical-align: middle;
 }
+
+.btn.chevron-right-bold-before:before { /*.linkclassはchevronの矢印をつけたいクラスを記載*/
+  /*疑似要素:beforeなら手前に矢印がつく*/
+   content: "";
+   background-color: #000; /*任意のカラーを指定可能*/
+   display: inline-block;
+   position: relative;
+   bottom: 2px; /*任意の縦方向位置を指定可能*/
+   height: 12px; /*任意の高さを指定可能*/
+   width: 8px; /*任意の幅を指定可能*/
+   -webkit-mask: url(https://nanaironanaoto.github.io/tailwind_mini/assets/chevron-right-bold.svg);
+   mask: url(https://nanaironanaoto.github.io/tailwind_mini/assets/chevron-right-bold.svg);
+   -webkit-mask-size: contain;
+   mask-size: contain;
+   vertical-align: middle;
+ }
+
+.btn.chevron-right-bold-after:after { /*.linkclassはchevronの矢印をつけたいクラスを記載*/
+  /*疑似要素:beforeなら手前に矢印がつく*/
+   content: "";
+   background-color: #000; /*任意のカラーを指定可能*/
+   display: inline-block;
+   position: relative;
+   bottom: 2px; /*任意の縦方向位置を指定可能*/
+   height: 12px; /*任意の高さを指定可能*/
+   width: 8px; /*任意の幅を指定可能*/
+   -webkit-mask: url(https://nanaironanaoto.github.io/tailwind_mini/assets/chevron-right-bold.svg);
+   mask: url(https://nanaironanaoto.github.io/tailwind_mini/assets/chevron-right-bold.svg);
+   -webkit-mask-size: contain;
+   mask-size: contain;
+   vertical-align: middle;
+ }
+ 
 
 @media (max-width: 768px) {
   .md\:m-0 {
@@ -14282,6 +14347,46 @@
 
   .md\:text-30px {
     font-size: 30px;
+  }
+
+  .md\:text-31px {
+    font-size: 31px;
+  }
+  
+  .md\:text-32px {
+    font-size: 32px;
+  }
+  
+  .md\:text-33px {
+    font-size: 33px;
+  }
+  
+  .md\:text-34px {
+    font-size: 34px;
+  }
+  
+  .md\:text-35px {
+    font-size: 35px;
+  }
+  
+  .md\:text-36px {
+    font-size: 36px;
+  }
+  
+  .md\:text-37px {
+    font-size: 37px;
+  }
+  
+  .md\:text-38px {
+    font-size: 38px;
+  }
+  
+  .md\:text-39px {
+    font-size: 39px;
+  }
+  
+  .md\:text-40px {
+    font-size: 40px;
   }
 
   .md\:visible {
@@ -14561,23 +14666,23 @@
   }
 
   .md\:border-top {
-    border-top: 1px solid  #ccc;
+    border-top: 1px solid  #000;
   }
   
   .md\:border-left {
-    border-left: 1px solid  #ccc;
+    border-left: 1px solid  #000;
   }
   
   .md\:border-right {
-    border-right: 1px solid  #ccc;
+    border-right: 1px solid  #000;
   }
   
   .md\:border-bottom {
-    border-bottom: 1px solid  #ccc;
+    border-bottom: 1px solid  #000;
   }
   
   .md\:border {
-    border-bottom: 1px solid  #ccc;
+    border-bottom: 1px solid  #000;
   }
 
   .md\:auto-cols-auto {
