@@ -14163,7 +14163,7 @@
   vertical-align: middle;
 }
 
-.btn.chevron-right-bold-before:before { /*.linkclassはchevronの矢印をつけたいクラスを記載*/
+.chevron-right-bold-before:before { /*.linkclassはchevronの矢印をつけたいクラスを記載*/
   /*疑似要素:beforeなら手前に矢印がつく*/
    content: "";
    background-color: #000; /*任意のカラーを指定可能*/
@@ -14179,7 +14179,7 @@
    vertical-align: middle;
  }
 
-.btn.chevron-right-bold-after:after { /*.linkclassはchevronの矢印をつけたいクラスを記載*/
+.chevron-right-bold-after:after { /*.linkclassはchevronの矢印をつけたいクラスを記載*/
   /*疑似要素:beforeなら手前に矢印がつく*/
    content: "";
    background-color: #000; /*任意のカラーを指定可能*/
