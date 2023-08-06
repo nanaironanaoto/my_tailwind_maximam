@@ -1,29 +1,46 @@
 /*add*/
-.flex-flow-col{
+/* webフォントがロードされる前に一瞬もとのフォントがちらつくのを強制的に阻止する */
+html {
+  visibility: hidden;
+}
+
+html.wf-active {
+  visibility: visible;
+}
+
+/* webフォントがロードされる前に一瞬もとのフォントがちらつくのを強制的に阻止する */
+
+.flex-flow-col {
   flex-flow: column;
 }
-.flex-flow-col-reverse{
+
+.flex-flow-col-reverse {
   flex-flow: column-reverse;
 }
-.flex-flow-row{
-    flex-flow: row;
+
+.flex-flow-row {
+  flex-flow: row;
 }
-.flex-flow-row-reverse{
-    flex-flow: row-reverse;
+
+.flex-flow-row-reverse {
+  flex-flow: row-reverse;
 }
 
 @media (max-width: 768px) {
-  .md\:flex-flow-col{
+  .md\:flex-flow-col {
     flex-flow: column;
   }
-  .md\:.flex-flow-col-reverse{
+
+  .md\:.flex-flow-col-reverse {
     flex-flow: column-reverse;
   }
-  .md\:flex-flow-row{
-      flex-flow: row;
+
+  .md\:flex-flow-row {
+    flex-flow: row;
   }
-  .md\:flex-flow-row-reverse{
-      flex-flow: row-reverse;
+
+  .md\:flex-flow-row-reverse {
+    flex-flow: row-reverse;
   }
 }
 
@@ -363,19 +380,19 @@
 }
 
 .font-times {
-    font-family: "Times New Roman",sans-serif;
+  font-family: "Times New Roman", sans-serif;
 }
 
 .font-helvetica {
   font-family: Helvetica;
 }
 
-.font-helvetica-neue{
+.font-helvetica-neue {
   font-family: HelveticaNeue;
 }
 
 .font-yu-gothic {
-  font-family:     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  font-family: font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
 }
 
 .font-serif {
@@ -447,23 +464,23 @@
 }
 
 .border-top {
-  border-top: 1px solid  #000;
+  border-top: 1px solid #000;
 }
 
 .border-left {
-  border-left: 1px solid  #000;
+  border-left: 1px solid #000;
 }
 
 .border-right {
-  border-right: 1px solid  #000;
+  border-right: 1px solid #000;
 }
 
 .border-bottom {
-  border-bottom: 1px solid  #000;
+  border-bottom: 1px solid #000;
 }
 
 .border {
-  border: 1px solid  #000;
+  border: 1px solid #000;
 }
 
 .auto-cols-auto {
@@ -1094,8 +1111,7 @@
   gap: 78px;
 }
 
-.gap-79px {
-}
+.gap-79px {}
 
 .gap-80px {
   gap: 80px;
@@ -1497,8 +1513,7 @@
   column-gap: 78px;
 }
 
-.gap-x-79px {
-}
+.gap-x-79px {}
 
 .gap-x-80px {
   column-gap: 80px;
@@ -1900,8 +1915,7 @@
   row-gap: 78px;
 }
 
-.gap-y-79px {
-}
+.gap-y-79px {}
 
 .gap-y-80px {
   row-gap: 80px;
@@ -14125,22 +14139,26 @@
   width: auto;
 }
 
-.underline{
+.underline {
   text-decoration: underline;
 }
 
-.no-underline{
+.no-underline {
   text-decoration: none;
 }
 
-.chevron-right-before:before { 
+.chevron-right-before:before {
   content: "";
-  background-color: #000; /*任意のカラーを指定可能*/
+  background-color: #000;
+  /*任意のカラーを指定可能*/
   display: inline-block;
   position: relative;
-  bottom: 2px; /*任意の縦方向位置を指定可能*/
-  height: 10px; /*任意の高さを指定可能*/
-  width: 10px; /*任意の幅を指定可能*/
+  bottom: 2px;
+  /*任意の縦方向位置を指定可能*/
+  height: 10px;
+  /*任意の高さを指定可能*/
+  width: 10px;
+  /*任意の幅を指定可能*/
   -webkit-mask: url(https://nanaironanaoto.github.io/tailwind_mini/assets/chevron-right.svg);
   mask: url(https://nanaironanaoto.github.io/tailwind_mini/assets/chevron-right.svg);
   -webkit-mask-size: cover;
@@ -14148,14 +14166,18 @@
   vertical-align: middle;
 }
 
-.chevron-right-after:after { 
+.chevron-right-after:after {
   content: "";
-  background-color: #000; /*任意のカラーを指定可能*/
+  background-color: #000;
+  /*任意のカラーを指定可能*/
   display: inline-block;
   position: relative;
-  bottom: 2px; /*任意の縦方向位置を指定可能*/
-  height: 10px; /*任意の高さを指定可能*/
-  width: 10px; /*任意の幅を指定可能*/
+  bottom: 2px;
+  /*任意の縦方向位置を指定可能*/
+  height: 10px;
+  /*任意の高さを指定可能*/
+  width: 10px;
+  /*任意の幅を指定可能*/
   -webkit-mask: url(https://nanaironanaoto.github.io/tailwind_mini/assets/chevron-right.svg);
   mask: url(https://nanaironanaoto.github.io/tailwind_mini/assets/chevron-right.svg);
   -webkit-mask-size: cover;
@@ -14163,38 +14185,48 @@
   vertical-align: middle;
 }
 
-.chevron-right-bold-before:before { /*.linkclassはchevronの矢印をつけたいクラスを記載*/
+.chevron-right-bold-before:before {
+  /*.linkclassはchevronの矢印をつけたいクラスを記載*/
   /*疑似要素:beforeなら手前に矢印がつく*/
-   content: "";
-   background-color: #000; /*任意のカラーを指定可能*/
-   display: inline-block;
-   position: relative;
-   bottom: 2px; /*任意の縦方向位置を指定可能*/
-   height: 12px; /*任意の高さを指定可能*/
-   width: 8px; /*任意の幅を指定可能*/
-   -webkit-mask: url(https://nanaironanaoto.github.io/tailwind_mini/assets/chevron-right-bold.svg);
-   mask: url(https://nanaironanaoto.github.io/tailwind_mini/assets/chevron-right-bold.svg);
-   -webkit-mask-size: contain;
-   mask-size: contain;
-   vertical-align: middle;
- }
+  content: "";
+  background-color: #000;
+  /*任意のカラーを指定可能*/
+  display: inline-block;
+  position: relative;
+  bottom: 2px;
+  /*任意の縦方向位置を指定可能*/
+  height: 12px;
+  /*任意の高さを指定可能*/
+  width: 8px;
+  /*任意の幅を指定可能*/
+  -webkit-mask: url(https://nanaironanaoto.github.io/tailwind_mini/assets/chevron-right-bold.svg);
+  mask: url(https://nanaironanaoto.github.io/tailwind_mini/assets/chevron-right-bold.svg);
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  vertical-align: middle;
+}
 
-.chevron-right-bold-after:after { /*.linkclassはchevronの矢印をつけたいクラスを記載*/
+.chevron-right-bold-after:after {
+  /*.linkclassはchevronの矢印をつけたいクラスを記載*/
   /*疑似要素:beforeなら手前に矢印がつく*/
-   content: "";
-   background-color: #000; /*任意のカラーを指定可能*/
-   display: inline-block;
-   position: relative;
-   bottom: 2px; /*任意の縦方向位置を指定可能*/
-   height: 12px; /*任意の高さを指定可能*/
-   width: 8px; /*任意の幅を指定可能*/
-   -webkit-mask: url(https://nanaironanaoto.github.io/tailwind_mini/assets/chevron-right-bold.svg);
-   mask: url(https://nanaironanaoto.github.io/tailwind_mini/assets/chevron-right-bold.svg);
-   -webkit-mask-size: contain;
-   mask-size: contain;
-   vertical-align: middle;
- }
- 
+  content: "";
+  background-color: #000;
+  /*任意のカラーを指定可能*/
+  display: inline-block;
+  position: relative;
+  bottom: 2px;
+  /*任意の縦方向位置を指定可能*/
+  height: 12px;
+  /*任意の高さを指定可能*/
+  width: 8px;
+  /*任意の幅を指定可能*/
+  -webkit-mask: url(https://nanaironanaoto.github.io/tailwind_mini/assets/chevron-right-bold.svg);
+  mask: url(https://nanaironanaoto.github.io/tailwind_mini/assets/chevron-right-bold.svg);
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  vertical-align: middle;
+}
+
 
 @media (max-width: 768px) {
   .md\:m-0 {
@@ -14352,39 +14384,39 @@
   .md\:text-31px {
     font-size: 31px;
   }
-  
+
   .md\:text-32px {
     font-size: 32px;
   }
-  
+
   .md\:text-33px {
     font-size: 33px;
   }
-  
+
   .md\:text-34px {
     font-size: 34px;
   }
-  
+
   .md\:text-35px {
     font-size: 35px;
   }
-  
+
   .md\:text-36px {
     font-size: 36px;
   }
-  
+
   .md\:text-37px {
     font-size: 37px;
   }
-  
+
   .md\:text-38px {
     font-size: 38px;
   }
-  
+
   .md\:text-39px {
     font-size: 39px;
   }
-  
+
   .md\:text-40px {
     font-size: 40px;
   }
@@ -14416,7 +14448,7 @@
   .md\:sticky {
     position: sticky;
   }
-  
+
   .md\:block {
     display: block;
   }
@@ -14546,14 +14578,14 @@
   }
 
   .md\:font-times {
-    font-family: "Times New Roman",sans-serif;
+    font-family: "Times New Roman", sans-serif;
   }
 
   .md\:font-helvetica {
     font-family: Helvetica;
   }
 
-  .md\:font-helvetica-neue{
+  .md\:font-helvetica-neue {
     font-family: HelveticaNeue;
   }
 
@@ -14666,23 +14698,23 @@
   }
 
   .md\:border-top {
-    border-top: 1px solid  #000;
+    border-top: 1px solid #000;
   }
-  
+
   .md\:border-left {
-    border-left: 1px solid  #000;
+    border-left: 1px solid #000;
   }
-  
+
   .md\:border-right {
-    border-right: 1px solid  #000;
+    border-right: 1px solid #000;
   }
-  
+
   .md\:border-bottom {
-    border-bottom: 1px solid  #000;
+    border-bottom: 1px solid #000;
   }
-  
+
   .md\:border {
-    border: 1px solid  #000;
+    border: 1px solid #000;
   }
 
   .md\:auto-cols-auto {
@@ -14740,23 +14772,23 @@
   .md\:grid-cols-1-2 {
     grid-template-columns: 1fr 2fr;
   }
-  
+
   .md\:grid-cols-2-1 {
     grid-template-columns: 2fr 1fr;
   }
-  
+
   .md\:grid-cols-1-3 {
     grid-template-columns: 1fr 3fr;
   }
-  
+
   .md\:grid-cols-3-1 {
     grid-template-columns: 3fr 1fr;
   }
-  
+
   .md\:grid-cols-3-2 {
     grid-template-columns: 3fr 2fr;
   }
-  
+
   .md\:grid-cols-2-3 {
     grid-template-columns: 2fr 3fr;
   }
@@ -15717,8 +15749,7 @@
     column-gap: 78px;
   }
 
-  .md\:gap-x-79px {
-  }
+  .md\:gap-x-79px {}
 
   .md\:gap-x-80px {
     column-gap: 80px;
@@ -16120,8 +16151,7 @@
     row-gap: 78px;
   }
 
-  .md\:gap-y-79px {
-  }
+  .md\:gap-y-79px {}
 
   .md\:gap-y-80px {
     row-gap: 80px;
@@ -28346,11 +28376,11 @@
     width: auto;
   }
 
-  .md\:underline{
+  .md\:underline {
     text-decoration: underline;
   }
-  
-  .md\:no-underline{
+
+  .md\:no-underline {
     text-decoration: none;
   }
 
