@@ -1,13 +1,3 @@
-/*add*/
-/* webフォントがロードされる前に一瞬もとのフォントがちらつくのを強制的に阻止する */
-html {
-  visibility: hidden;
-}
-
-html.wf-active {
-  visibility: visible;
-}
-
 /* webフォントがロードされる前に一瞬もとのフォントがちらつくのを強制的に阻止する */
 
 .flex-flow-col {
