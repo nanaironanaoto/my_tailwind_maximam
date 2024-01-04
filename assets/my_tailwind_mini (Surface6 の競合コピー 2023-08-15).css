@@ -21,7 +21,7 @@
     flex-flow: column;
   }
 
-  .md\:flex-flow-col-reverse {
+  .md\:.flex-flow-col-reverse {
     flex-flow: column-reverse;
   }
 
