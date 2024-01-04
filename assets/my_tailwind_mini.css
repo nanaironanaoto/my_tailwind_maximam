@@ -211,6 +211,214 @@
   font-size: 40px;
 }
 
+.text-8em {
+  font-size: 8em;
+}
+
+.text-9em {
+  font-size: 9em;
+}
+
+.text-10em {
+  font-size: 10em;
+}
+
+.text-11em {
+  font-size: 11em;
+}
+
+.text-12em {
+  font-size: 12em;
+}
+
+.text-13em {
+  font-size: 13em;
+}
+
+.text-14em {
+  font-size: 14em;
+}
+
+.text-15em {
+  font-size: 15em;
+}
+
+.text-16em {
+  font-size: 16em;
+}
+
+.text-17em {
+  font-size: 17em;
+}
+
+.text-18em {
+  font-size: 18em;
+}
+
+.text-19em {
+  font-size: 19em;
+}
+
+.text-20em {
+  font-size: 20em;
+}
+
+.text-21em {
+  font-size: 21em;
+}
+
+.text-22em {
+  font-size: 22em;
+}
+
+.text-23em {
+  font-size: 23em;
+}
+
+.text-24em {
+  font-size: 24em;
+}
+
+.text-25em {
+  font-size: 25em;
+}
+
+.text-26em {
+  font-size: 26em;
+}
+
+.text-27em {
+  font-size: 27em;
+}
+
+.text-28em {
+  font-size: 28em;
+}
+
+.text-29em {
+  font-size: 29em;
+}
+
+.text-30em {
+  font-size: 30em;
+}
+
+.text-31em {
+  font-size: 31em;
+}
+
+.text-32em {
+  font-size: 32em;
+}
+
+.text-33em {
+  font-size: 33em;
+}
+
+.text-34em {
+  font-size: 34em;
+}
+
+.text-35em {
+  font-size: 35em;
+}
+
+.text-36em {
+  font-size: 36em;
+}
+
+.text-37em {
+  font-size: 37em;
+}
+
+.text-38em {
+  font-size: 38em;
+}
+
+.text-39em {
+  font-size: 39em;
+}
+
+.text-40em {
+  font-size: 40em;
+}
+
+.text-41em {
+  font-size: 41em;
+}
+
+.text-42em {
+  font-size: 42em;
+}
+
+.text-43em {
+  font-size: 43em;
+}
+
+.text-44em {
+  font-size: 44em;
+}
+
+.text-45em {
+  font-size: 45em;
+}
+
+.text-46em {
+  font-size: 46em;
+}
+
+.text-47em {
+  font-size: 47em;
+}
+
+.text-48em {
+  font-size: 48em;
+}
+
+.text-49em {
+  font-size: 49em;
+}
+
+.text-50em {
+  font-size: 50em;
+}
+
+.text-51em {
+  font-size: 51em;
+}
+
+.text-52em {
+  font-size: 52em;
+}
+
+.text-53em {
+  font-size: 53em;
+}
+
+.text-54em {
+  font-size: 54em;
+}
+
+.text-55em {
+  font-size: 55em;
+}
+
+.text-56em {
+  font-size: 56em;
+}
+
+.text-57em {
+  font-size: 57em;
+}
+
+.text-58em {
+  font-size: 58em;
+}
+
+.text-59em {
+  font-size: 59em;
+}
+
 /*position*/
 .visible {
   visibility: visible;
@@ -14219,6 +14427,7 @@
 
 
 @media (max-width: 768px) {
+
   .md\:m-0 {
     margin: 0;
   }
@@ -14409,6 +14618,214 @@
 
   .md\:text-40px {
     font-size: 40px;
+  }
+
+  .md\:text-8em {
+    font-size: 8em;
+  }
+
+  .md\:text-9em {
+    font-size: 9em;
+  }
+
+  .md\:text-10em {
+    font-size: 10em;
+  }
+
+  .md\:text-11em {
+    font-size: 11em;
+  }
+
+  .md\:text-12em {
+    font-size: 12em;
+  }
+
+  .md\:text-13em {
+    font-size: 13em;
+  }
+
+  .md\:text-14em {
+    font-size: 14em;
+  }
+
+  .md\:text-15em {
+    font-size: 15em;
+  }
+
+  .md\:text-16em {
+    font-size: 16em;
+  }
+
+  .md\:text-17em {
+    font-size: 17em;
+  }
+
+  .md\:text-18em {
+    font-size: 18em;
+  }
+
+  .md\:text-19em {
+    font-size: 19em;
+  }
+
+  .md\:text-20em {
+    font-size: 20em;
+  }
+
+  .md\:text-21em {
+    font-size: 21em;
+  }
+
+  .md\:text-22em {
+    font-size: 22em;
+  }
+
+  .md\:text-23em {
+    font-size: 23em;
+  }
+
+  .md\:text-24em {
+    font-size: 24em;
+  }
+
+  .md\:text-25em {
+    font-size: 25em;
+  }
+
+  .md\:text-26em {
+    font-size: 26em;
+  }
+
+  .md\:text-27em {
+    font-size: 27em;
+  }
+
+  .md\:text-28em {
+    font-size: 28em;
+  }
+
+  .md\:text-29em {
+    font-size: 29em;
+  }
+
+  .md\:text-30em {
+    font-size: 30em;
+  }
+
+  .md\:text-31em {
+    font-size: 31em;
+  }
+
+  .md\:text-32em {
+    font-size: 32em;
+  }
+
+  .md\:text-33em {
+    font-size: 33em;
+  }
+
+  .md\:text-34em {
+    font-size: 34em;
+  }
+
+  .md\:text-35em {
+    font-size: 35em;
+  }
+
+  .md\:text-36em {
+    font-size: 36em;
+  }
+
+  .md\:text-37em {
+    font-size: 37em;
+  }
+
+  .md\:text-38em {
+    font-size: 38em;
+  }
+
+  .md\:text-39em {
+    font-size: 39em;
+  }
+
+  .md\:text-40em {
+    font-size: 40em;
+  }
+
+  .md\:text-41em {
+    font-size: 41em;
+  }
+
+  .md\:text-42em {
+    font-size: 42em;
+  }
+
+  .md\:text-43em {
+    font-size: 43em;
+  }
+
+  .md\:text-44em {
+    font-size: 44em;
+  }
+
+  .md\:text-45em {
+    font-size: 45em;
+  }
+
+  .md\:text-46em {
+    font-size: 46em;
+  }
+
+  .md\:text-47em {
+    font-size: 47em;
+  }
+
+  .md\:text-48em {
+    font-size: 48em;
+  }
+
+  .md\:text-49em {
+    font-size: 49em;
+  }
+
+  .md\:text-50em {
+    font-size: 50em;
+  }
+
+  .md\:text-51em {
+    font-size: 51em;
+  }
+
+  .md\:text-52em {
+    font-size: 52em;
+  }
+
+  .md\:text-53em {
+    font-size: 53em;
+  }
+
+  .md\:text-54em {
+    font-size: 54em;
+  }
+
+  .md\:text-55em {
+    font-size: 55em;
+  }
+
+  .md\:text-56em {
+    font-size: 56em;
+  }
+
+  .md\:text-57em {
+    font-size: 57em;
+  }
+
+  .md\:text-58em {
+    font-size: 58em;
+  }
+
+  .md\:text-59em {
+    font-size: 59em;
   }
 
   .md\:visible {
