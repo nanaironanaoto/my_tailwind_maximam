@@ -2,12 +2,7 @@ module.exports = {
   mode: "jit",
   prefix: "tw-",
   content: [
-    "./layout/*.liquid",
-    "./templates/*.{liquid, json}",
-    "./sections/*.liquid",
-    "./snippets/*.liquid",
-    "./assets/*.{liquid, js}",
-    "./index.html"
+    "index.html"
   ],
   theme: {
     extend: {
