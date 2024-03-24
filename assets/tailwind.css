@@ -1,3 +1,27 @@
 .tw-block {
   display: block
 }
+
+.tw-text-\[10px\] {
+  font-size: 10px
+}
+
+.tw-text-\[10em\] {
+  font-size: 10em
+}
+
+.tw-text-\[1em\] {
+  font-size: 1em
+}
+
+.tw-text-\[\.61em\] {
+  font-size: .61em
+}
+
+.tw-text-\[1\.6em\] {
+  font-size: 1.6em
+}
+
+.tw-font-bold {
+  font-weight: 700
+}
