@@ -1,10 +1,21 @@
 {
-  "name": "PROJECT_NAME",
+  "name": "tailwind_and_gsap_test",
   "version": "1.0.0",
-  "description": "",
+  "description": "��#\u0000 \u0000d\u0000r\u0000s\u0000u\u0000p\u0000p\u0000o\u0000r\u0000t\u0000e\u0000r\u0000\r\u0000 \u0000",
+  "main": "tailwind.config.js",
   "scripts": {
-    "build": "tailwind build tailwind.config.js -o assets/my_tailwind.css"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run dev:watch",
+    "dev:watch": "tailwindcss -i ./_css/tailwind.css -o ./assets/tailwind.css --watch",
+    "build": "tailwindcss -i ./_css/tailwind.css -o ./assets/tailwind.css --minify",
+    "start": "browser-sync start --proxy 'localhost:9292' --files 'assets/*.css, layout/*.liquid, sections/*.liquid, snippets/*.liquid, templates/*.liquid'"
   },
+  "keywords": [],
   "author": "",
-  "license": "UNLICENSED"
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "concurrently": "^8.2.2",
+    "tailwindcss": "^3.4.1"
+  }
 }
