@@ -1,5 +1,8 @@
 # ■スタイルのクラスを作るだけでchevronを前でも後ろでも表示させられ、かつこのコードだけで色もサイズも調整可能！
 
+# ■tw_tailwind_static
+https://nanaironanaoto.github.io/tailwind_mini/assets/tw-tailwind-static.css
+
 .linkclass:after { /*.linkclassはchevronの矢印をつけたいクラスを記載*/
  /*疑似要素:beforeなら手前に矢印がつく*/
   content: "";
