@@ -2,17 +2,25 @@
   display: block
 }
 
+.tw-h-\[100vh\] {
+  height: 100vh
+}
+
 .tw-h-\[200vh\] {
   height: 200vh
 }
 
-.tw-h-\[50vh\] {
-  height: 50vh
+.tw-w-full {
+  width: 100%
 }
 
 .tw-bg-red-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(239 68 68 / var(--tw-bg-opacity))
+}
+
+.tw-text-center {
+  text-align: center
 }
 
 .tw-text-\[1\.6em\] {

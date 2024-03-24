@@ -15,21 +15,33 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-
-        // waveBoundクラスを持つ要素のテキストを1文字ずつ<span>で囲む
-        document.querySelectorAll('.waveBound').forEach(element => {
+    // waveBoundText
+        // waveBoundTextクラスを持つ要素のテキストを1文字ずつ<span>で囲む
+        document.querySelectorAll('.waveBoundText').forEach(element => {
             let chars = element.textContent.split('').map(char => `<span>${char}</span>`).join('');
             element.innerHTML = chars;
         });
+        //waveBoundTextクラスを持つ要素の各<span>にアニメーションを適用
+        // gsap.utils.toArray('.waveBoundText span').forEach((span, i) => {
+        //     gsap.fromTo( span, 
+        //         { y: 0, opacity: 0 },
+        //         { y: -20, opacity: 1, duration: 0.5, ease: "bounce.out", delay: i * 0.2 }
+        //     );
+        // });
 
-        // 各<span>にアニメーションを適用
-        gsap.utils.toArray('.waveBound span').forEach((span, i) => {
+        gsap.utils.toArray('.waveBoundText span').forEach((span, i) => {
             gsap.fromTo(span, 
                 { y: 0, opacity: 0 },
-                { y: -20, opacity: 1, duration: 0.5, ease: "bounce.out", delay: i * 0.2 });
+                { 
+                    y: -20, opacity: 1, duration: 0.5, ease: "bounce.out", delay: i * 0.2,
+                    scrollTrigger: {
+                        trigger: '.target', // トリガーとなる要素
+                        start: 'center center', // アニメーションの開始位置の指定
+                        toggleActions: 'play none none reverse', // スクロールアップでアニメーションを逆再生
+                    }
+                }
+            );
         });
-
-
 
 
 
