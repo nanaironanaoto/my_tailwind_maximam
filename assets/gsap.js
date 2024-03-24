@@ -21,26 +21,17 @@ document.addEventListener('DOMContentLoaded', function() {
             let chars = element.textContent.split('').map(char => `<span>${char}</span>`).join('');
             element.innerHTML = chars;
         });
-        //waveBoundTextクラスを持つ要素の各<span>にアニメーションを適用
-        // gsap.utils.toArray('.waveBoundText span').forEach((span, i) => {
-        //     gsap.fromTo( span, 
-        //         { y: 0, opacity: 0 },
-        //         { y: -20, opacity: 1, duration: 0.5, ease: "bounce.out", delay: i * 0.2 }
-        //     );
-        // });
-
         gsap.utils.toArray('.waveBoundText span').forEach((span, i) => {
-            gsap.fromTo(span, 
-                { y: 0, opacity: 0 },
-                { 
-                    y: -20, opacity: 1, duration: 0.5, ease: "bounce.out", delay: i * 0.2,
-                    scrollTrigger: {
-                        trigger: '.target', // トリガーとなる要素
-                        start: 'center center', // アニメーションの開始位置の指定
-                        toggleActions: 'play none none reverse', // スクロールアップでアニメーションを逆再生
-                    }
+            gsap.timeline({
+                scrollTrigger: {
+                    trigger: '.target',
+                    start: 'center center',
+                    toggleActions: 'play none none reverse',
+                    onEnterBack: () => { /* 逆再生のアニメーションをここに指定 */ },
+                    onLeaveBack: () => { /* 必要に応じて */ },
                 }
-            );
+            })
+            .fromTo(span, { y: 0, opacity: 0 }, { y: -20, opacity: 1, duration: 0.5, ease: "bounce.out", delay: i * 0.2 });
         });
 
 
